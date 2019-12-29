@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
+    "module": "commonjs",
+    "outDir": "./dist",
+    "strict": true,
+    "target": "es5",
+  },
+  "exclude": ["./dist/**/*.ts", "./node_modules/**/*.ts", "**/*.spec.ts"]
+}

@@ -1,3 +1,1 @@
-import { FC } from 'react';
-declare const MUIStripeInput: FC;
-export { MUIStripeInput };
+export { useStripe } from './useStripe';

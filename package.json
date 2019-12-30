@@ -23,9 +23,15 @@
   },
   "dependencies": {
     "@types/react": "^16.9.17",
+    "husky": "^3.1.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-stripe-elements": "^6.0.1"
   },
-  "repository": "git@github.com:pixelbreaker/react-material-ui-stripe-inputs.git"
+  "repository": "git@github.com:pixelbreaker/react-material-ui-stripe-inputs.git",
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn build; git add ./dist/*"
+    }
+  }
 }

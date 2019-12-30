@@ -1,7 +1,7 @@
-+ Add storybook for development
-+ Add yarn
-+ Add hooks for loading stripe.js
 + Create ContextProvider for StripeInputs
 + Font/css styling for stipe-elements?
 
+- Add storybook for development
+- Add yarn
+- Add hooks for loading stripe.js
 - setup typescript build and config

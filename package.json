@@ -23,7 +23,9 @@
   },
   "dependencies": {
     "@types/react": "^16.9.17",
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-stripe-elements": "^6.0.1"
   },
   "repository": "git@github.com:pixelbreaker/react-material-ui-stripe-inputs.git"
 }

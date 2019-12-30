@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 
-const useStripe = () => {
+const useStripe = (apiKey: string) => {
   // guard against SSR
   if (typeof window === undefined) {
     return null
@@ -26,7 +26,7 @@ const useStripe = () => {
     useEffect(() => {
       loadTimer.current = setInterval(() => {
         if ((window as any).Stripe !== undefined) {
-          setStripe((window as any).Stripe(process.env.GATSBY_STRIPE_API_KEY))
+          setStripe((window as any).Stripe(apiKey))
           clearInterval(loadTimer.current)
         }
       }, 100)

@@ -1,8 +1,8 @@
 {
   "name": "react-material-ui-stripe-inputs",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Material UI wrappers for stripe-react-elements",
+  "main": "dist/index.ja",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +16,6 @@
   "dependencies": {
     "@types/react": "^16.9.17",
     "react": "^16.12.0"
-  }
+  },
+  "repository": "git@github.com:pixelbreaker/react-material-ui-stripe-inputs.git"
 }
